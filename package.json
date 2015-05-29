@@ -1,0 +1,15 @@
+{
+  "name": "darkness-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A dark theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/markdoten/darkness-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  }
+}
