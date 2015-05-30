@@ -63,7 +63,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: @light-gray;
+  color: @syntax-comment;
 }
 
 .entity {
@@ -98,6 +98,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .storage {
   color: @purple;
+
+  &.jsdoc {
+    color: #999;
+  }
 }
 
 .constant {
@@ -157,7 +161,7 @@ atom-text-editor .search-results .marker.current-result .region,
 .punctuation {
   &.definition {
     &.comment {
-      color: @light-gray;
+      color: @syntax-comment;
     }
 
     &.string {
